@@ -10,6 +10,7 @@
     .row{
         width: 100%;
         margin-top: 0;
+        margin: auto;
     }
 
     .row>div{
@@ -18,9 +19,30 @@
 
     /* lezioni */
     #lezioni .row>.left, #lezioni .row>.right{
-        width: 100%;
+        width: calc(100% - 20px);
+        margin: 0 10px;
     }
+
     #lezioni{
         background-color: #f2f2cd;
     }
+
+    /* steps */
+    #steps .row>.left, 
+    #steps .row>.central,
+    #steps .row>.right{
+        width: calc(100% - 30px);
+        margin: 0 15px;
+    }
+
+    /* perchè */
+    #why{
+        background-color: #f2f2cd;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: calc(100% - 20px);
+        margin: 0 10px;  
 }
